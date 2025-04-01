@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.cleomenezesjr.aurea",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "aurea",
   "finish-args": [
@@ -27,14 +27,12 @@
     {
       "name": "blueprint-compiler",
       "buildsystem": "meson",
-      "cleanup": [
-        "*"
-      ],
+      "cleanup": ["*"],
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-          "tag": "v0.14.0"
+          "tag": "v0.16.0"
         }
       ]
     },
@@ -60,8 +58,8 @@
         {
           "type": "git",
           "url": "https://github.com/CleoMenezesJr/Aurea.git",
-          "tag": "1.5",
-          "commit": "25d31a4d93910e8a2dbe45333b8d6475ba573f36"
+          "tag": "1.6",
+          "commit": "beec36eca0e3b29e5c52bf2ec869c6fda6b01880"
         }
       ]
     }
