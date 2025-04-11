@@ -58,8 +58,8 @@
         {
           "type": "git",
           "url": "https://github.com/CleoMenezesJr/Aurea.git",
-          "tag": "1.6",
-          "commit": "104c6ecd054f6f23ef8d19d9be247e820c088ef0"
+          "tag": "1.6.1",
+          "commit": "99a18aec7e9ca874178072dfe98f71b36551a3fa"
         }
       ]
     }
