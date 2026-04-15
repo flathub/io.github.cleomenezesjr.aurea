@@ -12,6 +12,9 @@
     "--socket=wayland",
     "--filesystem=home"
   ],
+  "cleanup-commands": [
+    "python3 -m compileall --invalidation-mode=unchecked-hash /app"
+  ],
   "modules": [
     "python3-pybind11.json",
     "python3-pillow.json",
